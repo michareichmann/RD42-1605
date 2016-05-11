@@ -1,0 +1,84 @@
+% BEGIN PREAMBEL
+\documentclass[9pt]{beamer}
+\usepackage[british]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{multimedia}
+\input{extrapackages}
+\input{newcommands}
+\usetheme{Boadilla}
+\graphicspath{ {Pics/} }
+\usecolortheme{beaver}
+\useoutertheme{miniframes}
+\beamertemplatenavigationsymbolsempty
+\makeindex
+\title[Pad Performance]{Diamond pad detector performance at high rate at PSI}
+\author[M. Reichmann]{Michael Reichmann}
+\institute[\textbf{\textit{ETH}}\scalebox{.6}{\textit{Z\"{u}rich}}]{Swiss Federal Institute of Technology Zurich}
+% END PREAMBEL
+\begin{document}
+% ============================
+% BEGIN TITLE PAGE
+% ============================
+\begin{frame}
+	\begin{center}
+		\includegraphics[width=6cm]{Setup}
+	\end{center}
+	\begin{alertblock}{
+		\begin{center}
+			\textbf{Diamond pad detector performance at high rate at PSI}
+		\end{center}}
+		\vspace*{10pt}
+		\begin{center}\small
+		Michael Reichmann
+		\end{center}\normalsize
+	\end{alertblock}
+\end{frame}
+% END
+% ============================
+% BEGIN TABLE OF CONTENTS
+% ============================
+\begin{frame}[allowframebreaks]
+	\frametitle{Table of contents}
+	\tableofcontents   % [pausesections]
+\end{frame}
+% END
+% ====================================================================================
+% INTRODUCTION
+% ====================================================================================
+\section{Introduction}
+% ============================
+\begin{frame}
+	bla
+\end{frame}
+% ====================================================================================
+% ANALYSIS
+% ====================================================================================
+\section{Analysis}
+% ============================
+\begin{frame}
+	bla
+\end{frame}
+% ====================================================================================
+% INTRODUCTION
+% ====================================================================================
+\section{Results}
+% ============================
+\begin{frame}
+	bla
+\end{frame}
+% ====================================================================================
+% CONCLUSION
+% ====================================================================================
+\section{Conclusion}
+% ============================
+\begin{frame}
+	\frametitle{Conclusion}
+	\begin{itemize}
+		\item tested several diamond pad detectors with fluxes between \SI{1}{kHz/cm^{2}} and \SI{10}{MHz/cm^{2}}
+		\item some of the diamond pad detectors have only a very slight ($1-3$\%) rate dependence after irradiation
+	\end{itemize}
+\end{frame}
+% ============================
+% DOCUMENT END
+\end{document}
+
